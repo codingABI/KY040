@@ -16,7 +16,7 @@ This library is licensed under the terms of the 2-Clause BSD License [Copyright 
 KY040 is library for KY-040 rotary encoders. There are a lot of libraries existing for KY-040, but I found no library (at least 12/2023) which 
 
 1. works without the need of interrupt enabled pins for the CLK (aka. A) and DT (aka. B)
-2. has a stable debouncing using a signal state table (without debouncing the KY-040 rotary encoder is a mess)
+2. and has a stable debouncing using a signal state table (without debouncing the KY-040 rotary encoder is a mess)
 
 So I wrote my own library KY040, which was designed to work on an Arduino Uno/Nano or ATmega328 and could work on other Arduino compatible MCUs too.
 
