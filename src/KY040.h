@@ -36,12 +36,12 @@
  */ 
 #pragma once
 
-#define KY040_VERSION "1.0.0"
+#define KY040_VERSION "1.0.1"
 
 #include <arduino.h>
 
 // When using sleep modes wait X milliseconds for next sleep after a CLK/DT sequence start do prevent missing signals
-#define PREVENTSLEEPMS 100
+#define PREVENTSLEEPMS 150
 // Pin idle state
 #define INITSTEP 0b11
 // Max steps for a signal sequence
