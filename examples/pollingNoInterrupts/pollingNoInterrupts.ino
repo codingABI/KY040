@@ -11,7 +11,7 @@ KY040 g_rotaryEncoder(CLK_PIN,DT_PIN);
 
 void setup() {
   Serial.begin(9600); 
-  // If you rotary encoder has no builtin pullup resistors for CLK (aka. A) and DT (aka. B) uncomment the following two lines
+  // If your rotary encoder has no builtin pullup resistors for CLK (aka. A) and DT (aka. B) uncomment the following two lines
   // pinMode(CLK_PIN,INPUT_PULLUP);
   // pinMode(DT_PIN,INPUT_PULLUP);
 }
