@@ -5,15 +5,15 @@
 
 #include <KY040.h>
 
-#define CLK_PIN 6 // aka. A
-#define DT_PIN 5 // aka. B
+#define CLK_PIN 5 // aka. A
+#define DT_PIN 4 // aka. B
 KY040 g_rotaryEncoder(CLK_PIN,DT_PIN);
 
 void setup() {
   Serial.begin(9600); 
   // If you rotary encoder has no builtin pullup resistors for CLK (aka. A) and DT (aka. B) uncomment the following two lines
   // pinMode(CLK_PIN,INPUT_PULLUP);
-  // pinMode(DT,INPUT_PULLUP);
+  // pinMode(DT_PIN,INPUT_PULLUP);
 }
 
 void loop() {
