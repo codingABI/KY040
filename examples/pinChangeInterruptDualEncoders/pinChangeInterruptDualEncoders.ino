@@ -10,8 +10,8 @@
 KY040 g_rotaryEncoderX(X_CLK_PIN,X_DT_PIN);
 
 // Second rotary encoder
-#define Y_CLK_PIN 6 // aka. A
-#define Y_DT_PIN 7 // aka. B
+#define Y_CLK_PIN 7 // aka. A
+#define Y_DT_PIN 6 // aka. B
 KY040 g_rotaryEncoderY(Y_CLK_PIN,Y_DT_PIN);
 
 // Rotary encoder values (will be set in ISR)

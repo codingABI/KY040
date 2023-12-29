@@ -51,7 +51,7 @@ void loop() {
   static int lastValue = 0;
   int value;
 
-  // Go to sleep when rotary encoder has no rotation for ~100 milliseconds  
+  // Go to sleep when rotary encoder has no rotation for ~150 milliseconds  
   if (g_rotaryEncoder.readyForSleep()) sleep_mode();
 
   // Get rotary encoder value set in ISR

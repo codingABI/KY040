@@ -60,11 +60,11 @@ class KY040 {
       v_direction = IDLE;
       v_oldState = INITSTEP;
     }
-    // Get pin states for CLK and DT (First bit is for CLK, second bit is for DT). Should be called from ISR, when needed
+    // Get pin states for CLK and DT (Left bit is for CLK, right bit is for DT). Should be called from ISR, when needed
     byte getState() {
       return v_state;
     }
-    // Set pin states for CLK and DT (First bit is for CLK, second bit is for DT). Should be called from ISR, when needed
+    // Set pin states for CLK and DT (Left bit is for CLK, right bit is for DT). Should be called from ISR, when needed
     void setState(byte state) {
       v_state = state;
     }
