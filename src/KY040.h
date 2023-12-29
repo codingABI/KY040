@@ -68,7 +68,7 @@ class KY040 {
     void setState(byte state) {
       v_state = state;
     }
-    // Return true, if device was running long enough to get a full sequence (Do not use inside ISR)
+    // Returns true, if device was running long enough to get a full sequence (Do not use inside ISR)
     bool readyForSleep() {
       cli();
       unsigned long lastStepMillis = v_lastSequenceStartMillis;
