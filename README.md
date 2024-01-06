@@ -1,6 +1,8 @@
 # KY040
 An Arduino library for KY-040 rotary encoders. The library has debouncing and works in polling mode, with pin change interrupts or normal interrupts. In polling or pin change interrupt mode you can attach more then one rotary encoder to your Arduino Uno/Nano.
 
+[PDF-Documentation](KY040.pdf)
+
 Examples how to use the library
 - [pollingNoInterrupts](/examples/pollingNoInterrupts/pollingNoInterrupts.ino)
 - [pinChangeInterrupt](/examples/pinChangeInterrupt/pinChangeInterrupt.ino)
@@ -9,7 +11,7 @@ Examples how to use the library
 - [withInterrupt](/examples/withInterrupt/withInterrupt.ino)
 
 ## License and copyright
-This library is licensed under the terms of the 2-Clause BSD License [Copyright (c) 2023 codingABI](LICENSE.txt). 
+This library is licensed under the terms of the 2-Clause BSD License [Copyright (c) 2024 codingABI](LICENSE.txt). 
 
 ## Appendix
 ### Background
@@ -69,6 +71,7 @@ DT    |   |
 | 3  | High/High  |
  
 ### KY-040 Hardware
+
 ![Frontside](assets/images/KY-040_Frontside.jpg)
 
 | Pins  | Comment |
