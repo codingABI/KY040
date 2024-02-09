@@ -71,7 +71,7 @@ class KY040 {
     };
 
     /**@brief
-     * Constructor of a the KY040 rotary encoder
+     * Constructor of a the KY-040 rotary encoder
      *
      * @param[in] clk_pin Digital input pin connected to CLK aka. A
      * @param[in] dt_pin Digital input pin connected to DT aka. B
