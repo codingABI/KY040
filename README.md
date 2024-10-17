@@ -25,6 +25,7 @@ So I wrote my own library KY040, which was designed to work on an Arduino Uno/Na
 The KY040 library can:
 - be used without interrupts in polling mode
 - be used with pin change interrupts
+- be use with normal interrupts
 - control more than one rotary encoders in polling or pin change interrupt mode on an Arduino Uno/Nano
 - use any common pin digital pins for CLK and DT in polling or pin change interrupt mode
 - be used with normal *attachInterrupt* interrupts (in this case could have to use Pins 2 and 3 on your Arduino Uno/Nano)
