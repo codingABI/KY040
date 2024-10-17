@@ -20,7 +20,7 @@ KY040 is a library for KY-040 rotary encoders. There are a lot of libraries exis
 1. works without the need of interrupt enabled pins for the CLK (aka. A) and DT (aka. B)
 2. and has a stable debouncing using a signal state table (without debouncing the KY-040 rotary encoder is a mess)
 
-So I wrote my own library KY040, which was designed to work on an Arduino Uno/Nano or ATmega328 and could work on other Arduino compatible MCUs too.
+So I wrote my own library KY040, which was designed to work on an Arduino Uno/Nano, ATmega328, ESP32 and could work on other Arduino compatible MCUs too.
 
 The KY040 library can:
 - be used without interrupts in polling mode
