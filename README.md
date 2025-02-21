@@ -27,7 +27,7 @@ The KY040 library can:
 - be used with pin change interrupts
 - control more than one rotary encoders in polling or pin change interrupt mode on an Arduino Uno/Nano
 - use any common pin digital pins for CLK and DT in polling or pin change interrupt mode
-- be used with normal *attachInterrupt* interrupts (in this case could have to use Pins 2 and 3 on your Arduino Uno/Nano)
+- be used with normal *attachInterrupt* interrupts (in this case you have to use Pins 2 and 3 on your Arduino Uno/Nano)
 - be used with SLEEP_MODE_PWR_SAVE/SLEEP_MODE_PWR_DOWN sleep mode in combination with pin change interrupts
 - debounce the rotary encoder by filtering out invalid signal sequences
 
