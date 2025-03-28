@@ -11,7 +11,7 @@ Examples how to use the library
 - [withInterrupt](/examples/withInterrupt/withInterrupt.ino)
 
 ## License and copyright
-This library is licensed under the terms of the 2-Clause BSD License [Copyright (c) 2024 codingABI](LICENSE.txt). 
+This library is licensed under the terms of the 2-Clause BSD License [Copyright (c) 2023-2025 codingABI](LICENSE.txt). 
 
 ## Appendix
 ### Background
