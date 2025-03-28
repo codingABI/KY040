@@ -8,7 +8,7 @@
  * by ignoring invalid CLK/DT sequences
  * 
  * License: 2-Clause BSD License
- * Copyright (c) 2024 codingABI
+ * Copyright (c) 2023-2025 codingABI
  * For details see: LICENSE.txt
  * 
  * Valid clockwise sequence for CLK/DT: Low/High->Low/Low->High/Low->High/High
