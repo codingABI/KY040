@@ -42,12 +42,12 @@
  * @author codingABI https://github.com/codingABI/
  * @copyright 2-Clause BSD License
  * @file KY040.h
- * @version 1.0.1
+ * @version 1.0.2
  */
 #pragma once
 
 /** Library version */
-#define KY040_VERSION "1.0.1"
+#define KY040_VERSION "1.0.2"
 
 #include <Arduino.h>
 
