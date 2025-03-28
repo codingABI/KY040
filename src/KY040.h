@@ -49,7 +49,7 @@
 /** Library version */
 #define KY040_VERSION "1.0.1"
 
-#include <arduino.h>
+#include <Arduino.h>
 
 /** When using sleep modes wait X milliseconds for next sleep after a CLK/DT sequence start do prevent missing signals */
 #define PREVENTSLEEPMS 150
